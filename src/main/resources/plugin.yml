@@ -1,0 +1,10 @@
+name: ImageToBlocks
+version: '${project.version}'
+main: com.stardust.imagetoblocks.ImageToBlocks
+api-version: '1.20'
+authors: [Travis Ziegler, Ahmed Katary]
+description: A Plugin that lets you build realistic 2d block structures from an image downloaded from the internet.
+commands:
+  img2blocks:
+    description: "Place an image into the real world with blocks"
+    usage: /img2blocks [URL] [scale factor (1-100)]
